@@ -1,0 +1,16 @@
+Advanced programming 
+10 april 2024 
+Daniel Perez 
+
+
+In this proyect i development as a sofware engineer in a vehicle constructor 
+
+Use Histories 
+
+•	As an administrator i want to see the catalog of all the vehicles to know what i have available for sale
+•	As a seller i want to see the specifications of the vehicles to sell easier
+•	As an administrator i want to be able to filter my search by vehicle type or chassis type to facilitate my searches
+•	As an administrator i want to be able to add vehicles with all their features, so i can increase my catalog
+•	As a user, I want to be able to create types of engines to put on my vehicles.
+•	As a user, I want to be able to calculate the consumption of the vehicles to know how efficient they are.
+•	• As an administrator, I want to delete the vehicle and engine, so that when I make a sale I don't see the vehicle.
