@@ -1,5 +1,6 @@
 # advanced_programming_ud
-#taller #1 advanced programing author Daniel Santiago Perez Madera 13/03/2024
+# taller 1 advanced programing a
+## Author Daniel Santiago Perez Madera 13/03/2024
 
 class Motor:
   """esta clase representa al motor"""
