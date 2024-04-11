@@ -1,3 +1,11 @@
+## Índice
+
+- [activity diagrams](#activity-diagrams)
+- [CRC tarjets](#crc-tarjets)
+- [Diagram class](#diagram-class)
+- [sequence diagram](#sequence-diagram)
+- [state diagram](#state-diagram)
+
 # activity diagrams 
 
 - ![workshop 2-Página-1 drawio](https://github.com/dspm2212/advanced_programming_ud/assets/151273348/6eef415e-4896-4031-b4ba-4aa1f8033f09)
