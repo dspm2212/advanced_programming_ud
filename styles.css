@@ -1,0 +1,25 @@
+body{
+    background-color:rgba(157, 248, 218, 0.466); 
+
+}
+header{
+    text-align: center;
+}
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    border: 2px solid black  ;
+    align-self: center;
+}
+#btnLogin{
+    background-color: chartreuse;
+    border-radius: 10px ;
+}
+.form_input{
+    border-radius: 10px ;
+    color:chocolate;
+}
