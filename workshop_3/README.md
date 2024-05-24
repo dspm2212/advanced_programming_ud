@@ -1,4 +1,4 @@
-Workshop 3 
+# Workshop 3 
 
 in this file you can fin the code for the frontend(folder src) countend the files of html and css, and the techinical report can contain the request of the workshop
 
