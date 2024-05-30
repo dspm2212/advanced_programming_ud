@@ -1,14 +1,23 @@
 import uvicorn
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, select
 from sqlalchemy.orm import sessionmaker
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from pydantic import BaseModel
-
+from typing import List
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+# Configurar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Creamos una conexión a la bd
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/public')
+engine = create_engine('postgresql://postgres:postgres@localhost:5432/postgres')
 
 # Creamos una sesión para interactuar con la bd
 Session = sessionmaker(bind=engine)
